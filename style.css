@@ -1,0 +1,136 @@
+.navbar{
+    background: linear-gradient(to right, #af17ba,#5f1782);
+}
+.navbar-light .navbar-nav .nav-link.active {
+    background-color: red;
+}
+.navbar-nav .nav-link {
+    padding: 1px;
+    border-radius: 7px;
+}
+#navbarSupportedContent .navbar-nav a {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+/* ######## baner sec start here ###### */
+#home{
+    background: linear-gradient(to right, #af17ba,#5f1782);
+    color: #fff;
+}
+#home a img {
+    width: 50px;
+    margin-right: 8px;
+}
+.update a span{
+    text-decoration: none;
+}
+/* ######## banner sec end here###### */
+/* ######## what we do sec start here###### */
+#services h1 {
+    font-size: 51px;
+}
+#services .title::after{
+    content: '';
+    height: 5px;
+    width: 200px;
+    background: #7b1798;
+    display: block;
+    margin: auto;
+    transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+}
+#services img {
+    width: 110px;
+}
+.servicesBtn {
+    width: 182px;
+    height: 43px;
+    margin: auto;
+    border: none;
+    border-radius: 28px;
+    background: linear-gradient(to right, #af17ba,#5f1782);
+    color: #fff;
+    margin-top: 42px;
+}
+/* ######## what we do sec end here###### */
+/* about sec start here */
+#about h1{
+    font-size: 44px;
+}
+ .design::after{
+    content: '';
+    height: 5px;
+    width: 200px;
+    background-color: #5f1782;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+/* about sec end here */
+/* clients say start here */
+.userDetils{
+    border-left: 4px solid #7b1798;
+}
+.userDetils .user1{
+    width: 134px;
+}
+/* clients say end here */
+/* social start here */
+#social{
+    background-color: #F7F9FB;
+}
+#social img{
+    width: 60px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    cursor: pointer;
+}
+#social img:hover{
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+/* social end here */
+/* footer start here */
+#contact{
+    background: linear-gradient(to right, #af17ba,#5f1782);
+}
+.btnsubscribe{
+    width: 123px;
+    height: 40px;
+    border: none;
+    margin-top: 16px;
+    background: linear-gradient(to right, #af17ba,#5f1782);
+    color: white;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.btnsubscribe:hover{
+    transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+}
+/* footer end here */
+/* main footer start here */
+#mainFooter p{
+    height: 22px;
+    padding: 7px 0px;
+}
+/* main footer end here */
+#testimonials .user12 {
+    width: 140px;
+    height: 138px;
+}
